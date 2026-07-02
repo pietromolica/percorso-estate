@@ -1,0 +1,7 @@
+01/07/2026
+Oggi ho iniziato il mio percorso dell'estate basato sull' informatica principato su:
+-assistenza it ai percorso
+-git e github
+-e un approfindimento di python
+Oggi ho installato git e ho fatto l'accesso a git hub e dopo averlo configurato ho pubblicato
+il mio primo proggetto python su github e si chiama hello.py
