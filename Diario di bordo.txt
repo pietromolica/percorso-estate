@@ -1,7 +1,7 @@
-01/07/2026
-Oggi ho iniziato il mio percorso dell'estate basato sull' informatica principato su:
--assistenza it ai percorso
--git e github
--e un approfindimento di python
-Oggi ho installato git e ho fatto l'accesso a git hub e dopo averlo configurato ho pubblicato
-il mio primo proggetto python su github e si chiama hello.py
+02/07/2026
+Oggi abbiamo parlato delle virtual machine quindi anche degli:
+-host (ovvero il nostro pc)
+-guest (il sistema operativo eseguito dalla vitual machine)
+-hypervisor (ciò che gestisce la virtual machine e io userò virtual box)
+il sistema operativo che andrò ad usare linux ubuntu(6 gb nun ci parianu assai)
+che fara da desktop.
