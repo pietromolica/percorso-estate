@@ -32,3 +32,14 @@ quindi anche:
 -e la differenza tra le memorie ram, ssd e hard disk
 inoltre abbiamo fatto un esercizio sul computer virtuale ubuntu per ricavare tutte le informazioni 
 sulla scheda madre, del processore, della memoria ecc...
+
+07/07/2026
+Oggi abbiamo approfondito la motherboard quindi anche:
+-la differenza tra atx, microatx e mini-itx
+-i principali connettori(sata,dati e alimentazione)
+-montare la ram e il disco 
+-capire il ruolo del dissipatore, pasta termica e ventola
+-le regole per smotare un computer in sicurezza
+Inoltre ho smontato un computer per capire la distinsione dei connettori
+dell'alimentatore del processore ecc.. e sono anche riuscito a scaricare la mia vm
+usando lubuntu apposto di ubuntu.
