@@ -42,4 +42,4 @@ Oggi abbiamo approfondito la motherboard quindi anche:
 -le regole per smotare un computer in sicurezza
 Inoltre ho smontato un computer per capire la distinsione dei connettori
 dell'alimentatore del processore ecc.. e sono anche riuscito a scaricare la mia vm
-usando lubuntu apposto di ubuntu.
+usando lubuntu apposto di ubuntu. 
