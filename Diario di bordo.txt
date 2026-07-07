@@ -22,3 +22,13 @@ Oggi abbiamo corretto il test fatto ieri basato su:
 tutto sommato e andato bene anche perché l'ho corretto con Gaetano
 poi abbiamo avviato la mia virtual machine di ubuntu che userò
 nella mia seconda settimana di questo percorso.
+
+06/07/2026
+Oggi abbiamo parlato della motherboard, delle memorie ram e disco quindi anche ssd e hard disk.
+quindi anche:
+-l'archittura di von neuman.
+-la fase di fetch
+-da cosa e formato un processore(ALU ,Registri e core)
+-e la differenza tra le memorie ram, ssd e hard disk
+inoltre abbiamo fatto un esercizio sul computer virtuale ubuntu per ricavare tutte le informazioni 
+sulla scheda madre, del processore, della memoria ecc...
