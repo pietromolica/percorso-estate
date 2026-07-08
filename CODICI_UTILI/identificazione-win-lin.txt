@@ -14,7 +14,7 @@ lscpu
 free -h
 
 #Dischi
-lsbkl -o NAME,SIZE,TYPE,MODEL,TRAN
+lsblk -o NAME,SIZE,TYPE,MODEL,TRAN
 
 #Scheda madre, RAM e firmware
 sudo dmicode -t baseboard -t memory -t bios
