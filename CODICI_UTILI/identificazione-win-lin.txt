@@ -17,7 +17,7 @@ free -h
 lsblk -o NAME,SIZE,TYPE,MODEL,TRAN
 
 #Scheda madre, RAM e firmware
-sudo dmicode -t baseboard -t memory -t bios
+sudo dmidecode -t baseboard -t memory -t bios
 
 #Schede PCI/PICIe
 lspci | grep -Ei 'vga|3d|network|audio'
