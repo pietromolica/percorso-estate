@@ -43,3 +43,13 @@ Oggi abbiamo approfondito la motherboard quindi anche:
 Inoltre ho smontato un computer per capire la distinsione dei connettori
 dell'alimentatore del processore ecc.. e sono anche riuscito a scaricare la mia vm
 usando lubuntu apposto di ubuntu. 
+
+ 09/07/2026
+ Purtroppo ieri non ho pututo fare lezione a causa di una visita medica.
+ Quindi oggi abbiamo fatto sia i sistemi operativi e anche la diagnostica di un dispositivo
+ sonstalzialmente:
+ -capire qual'è il collegamento tr harware e software su un computer
+ -le varie fasi di un software
+ -le varie fasi per risolvere i problemi di pc 
+ -come scrivere un ticket di diagnostica.
+ Inoltre sono riuscito ad installare lubuntu su una chiavetta grazie a rufus.
