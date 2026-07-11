@@ -53,3 +53,11 @@ usando lubuntu apposto di ubuntu.
  -le varie fasi per risolvere i problemi di pc 
  -come scrivere un ticket di diagnostica.
  Inoltre sono riuscito ad installare lubuntu su una chiavetta grazie a rufus.
+
+10/07/2026
+Oggi ho fatto il test su tutto quello che abbiamo fatto questa settimana.
+quindi:
+-l'architettura della CPU 
+-Montaggio di un computer
+-Sistemi operativi
+-ticket e assistenza su cui ho anche fatto un manuale.
