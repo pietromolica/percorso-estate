@@ -1,0 +1,284 @@
+# Comandi di Base (Linux)
+
+**1. ls -l** — per elencare i file e le directory contenuti nella directory di lavoro corrente
+```
+[root@nettech root]#ls -l
+```
+
+**2. ls -la** — uguale a "ls -l" ma con questo comando possiamo vedere anche i file nascosti
+```
+[root@nettech root]#ls -la
+```
+
+**3. ls -li** — uguale a "ls -la" ma mostra anche il numero di inode di ogni file
+```
+[root@nettech root]#ls -li
+```
+
+**4. ls** — con questo comando possiamo vedere solo il nome dei file, niente altro
+```
+[root@nettech root]#ls
+```
+
+**5. clear** — pulisce lo schermo (scorciatoia ctrl+l)
+```
+[root@nettech root]#clear
+```
+
+**6. exit** — per terminare la sessione corrente e chiudere il terminale
+```
+[root@nettech root]exit
+```
+
+**7. touch** — per creare un nuovo file vuoto
+```
+[root@nettech root]#touch
+```
+
+**8. cd** — per cambiare la directory di lavoro/corrente
+```
+[root@nettech root]#cd /home/mango
+```
+dove "/home/mango" è la directory desiderata a cui passare da "/root"
+
+**9. cat** — per visualizzare il contenuto di un file, ed è usato anche per creare un nuovo file con del contenuto
+```
+[root@nettech root]#cat <file name>   (per vedere il contenuto del file)
+[root@nettech root]#cat > newfilename   (premi invio, poi puoi scrivere qualcosa nel file, poi per salvare il contenuto premi ctrl+d e poi invio)
+```
+
+**10. mkdir** — per creare una nuova directory
+```
+[root@nettech root]#mkdir newdirname
+```
+puoi anche creare una directory nel percorso desiderato senza cambiare la tua directory di lavoro corrente
+```
+[root@nettech root]#mkdir /home/mango/newdirname
+```
+
+**11. rm** — per rimuovere un file vuoto
+```
+[root@nettech root]#rm filename
+```
+
+**12. rmdir** — per rimuovere una directory vuota
+```
+[root@nettech root]#rmdir directoryname
+```
+
+**13. rm [-i/-r/-f]** — per rimuovere una directory con le sue sottodirectory e i suoi file, cioè per rimuovere una directory che contiene già alcuni file
+```
+[root@nettech root]#rm -i directory/filename
+```
+- -i sta per "interattivo"
+- -r sta per "ricorsivo"
+- -f sta per "forzato"
+
+**14. cp** — per copiare qualcosa in un file o directory di destinazione
+```
+[root@nettech root]#cp sourcepath destinationpath
+```
+esempio:
+```
+[root@nettech root]#cp /home/mango/webmin.rpm /root/abcd
+```
+in questo esempio il file webmin.rpm verrà copiato nella directory /root/abcd
+
+**15. mv** — per spostare un file o una directory da un posto a un altro; si usa anche per rinominare una directory o un file
+```
+[root@nettech root]#mv source destination
+[root@nettech root]#mv oldfilename newfilename   (per cambiare il nome del file)
+```
+
+**16. man** — per visualizzare la pagina di manuale dei comandi, per la sintassi
+```
+[root@nettech root]#man commandname
+```
+
+**17. info** — per visualizzare le informazioni su un comando
+```
+[root@nettech root]#mkdir info
+```
+
+**18. --help** — per visualizzare i documenti di aiuto di un comando
+```
+[root@nettech root]#commandname --help
+```
+
+**19. dir** — per visualizzare le sottodirectory e i file sotto la directory
+```
+[root@nettech root]#dir
+```
+
+**20. su -** — per diventare superutente
+```
+[mango@nettech mango]$su -
+```
+l'output sarà:
+```
+[root@nettech root#]
+```
+
+**21. who** — con questo comando puoi vedere il nome utente e l'indirizzo IP di chi si è collegato al tuo server
+```
+[root@nettech root]#who
+```
+
+**22. whoami** — questo comando mostra il nome dell'utente attualmente collegato al terminale
+```
+[root@nettech root]#whoami
+```
+
+**23. who am i** — questo comando mostra il numero del terminale collegato, il nome utente e altre informazioni più dettagliate
+```
+[root@nettech root]#who am i
+```
+
+**24. pwd** — per visualizzare la directory di lavoro corrente
+```
+[root@nettech root]#pwd
+```
+
+**25. rpm -ivh** — per installare un pacchetto rpm
+```
+[root@nettech root]#rpm -ivh packagename.rpm
+```
+- rpm sta per "redhat package manager"
+- -i sta per "install" (installa)
+- -v sta per "verbose mode" (modalità dettagliata)
+- -h sta per "with hash sign" (con simbolo #)
+
+**26. rpm -q** — per interrogare/verificare informazioni su un pacchetto rpm
+```
+[root@nettech root]#rpm -q packagename
+```
+
+**27. rpm -e** — per disinstallare un pacchetto rpm
+```
+[root@nettech root]#rpm -e package
+```
+
+**28. find / -name** — per trovare un file o una directory nel filesystem Linux
+```
+[root@nettech root]#find / -name filename
+```
+
+**29. su username** — per passare da un utente alla home directory di un altro utente
+```
+[root@nettech root]#su mango
+```
+l'output sarà:
+```
+[mango@nettech root]#cd
+[mango@nettech mango]#
+```
+
+**30. su - username** — per passare direttamente da un utente alla home directory di un altro utente
+```
+[root@nettech root]#su - mango
+```
+
+**31. useradd** — per creare un nuovo utente
+```
+[root@nettech root]#useradd username
+```
+
+**32. passwd** — per assegnare una password a un utente
+```
+[root@nettech root]#passwd tarun
+```
+l'output sarà:
+```
+give a password for user tarun: (qui devi digitare una password per l'utente tarun)
+confirm password: (digita di nuovo la stessa password)
+```
+
+**33. userdel** — per rimuovere un utente da Linux
+```
+[root@nettech root]#userdel tarun
+```
+
+**34. groupadd** — per aggiungere un nuovo gruppo
+```
+[root@nettech root]#groupadd groupname
+```
+
+**35. groupdel** — per eliminare un gruppo
+```
+[root@nettech root]#groupdel groupname
+```
+
+**36. chown** — per cambiare il proprietario di un file o directory
+```
+[root@nettech root]#chown ownername filename
+```
+esempio:
+```
+[root@nettech /]#ls -l
+```
+output:
+```
+drwxrw-rw- 2 root root 4096 Mar 11 12:03 abcd
+(permessi) (proprietario) (gruppo proprietario) (dimensione) (nome)
+```
+```
+[root@nettech root]#chown tarun /abcd
+```
+in questo esempio il proprietario della directory /abcd verrà cambiato in utente tarun
+
+effetto:
+```
+[root@nettech /]#ls -l
+drwxrw-rw- 2 tarun root 4096 Mar 11 12:03 abcd
+```
+
+**37. chgrp** — per cambiare il gruppo proprietario di un file o directory
+```
+[root@nettec root]#chgrp newgroupownername filename
+```
+esempio:
+```
+[root@nettech /]#ls -l
+drwxrw-rw- 2 tarun root 4096 Mar 11 12:03 abcd
+```
+```
+[root@nettech root]#chgrp tarun /abcd
+```
+effetto:
+```
+[root@nettech /]#ls -l
+drwxrw-rw- 2 tarun tarun 4096 Mar 11 12:03 abcd
+```
+
+**38. chmod** — per cambiare i permessi di un file o directory
+```
+drwxrw-rw- 2 root root 4096 Mar 11 12:03 abcd
+(permessi) (propr.) (gruppo propr.) (dimensione) (nome)   IN VALORE OTTALE
+```
+- d sta per "directory" — READ (lettura) = 4
+- r sta per permesso di sola lettura — WRITE (scrittura) = 2
+- w sta per permesso di sola scrittura — EXECUTE (esecuzione) = 1
+- x sta per permesso di sola esecuzione
+
+- drwxrw-rw- → PRIMO CARATTERE indica se è directory, file, link, ecc.
+- SECONDI TRE CARATTERI per i permessi dell'utente/proprietario (rwx o 7 in valore ottale)
+- TERZI TRE CARATTERI per i permessi del gruppo (rw- o 6 in valore ottale)
+- QUARTI TRE CARATTERI per i permessi degli altri (rw- o 6 in valore ottale)
+
+sintassi:
+```
+[root@nettec root]#chmod value fileordirectoryname
+```
+esempio:
+```
+[root@nettech /]#ls -l
+drwxrw-rw- 2 tarun root 4096 Mar 11 12:03 abcd
+[root@nettech /]#chmod 402 /abcd
+[root@nettech /]#ls -l
+drw-----w- 2 tarun tarun 4096 Mar 11 12:03 abcd
+```
+
+**40. usermod** — per modificare il profilo di un utente
+```
+[root@nettech root]#usermod -parameter groupname username
+```
