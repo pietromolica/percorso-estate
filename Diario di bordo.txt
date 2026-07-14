@@ -61,3 +61,12 @@ quindi:
 -Montaggio di un computer
 -Sistemi operativi
 -ticket e assistenza su cui ho anche fatto un manuale.
+
+13/07/2026
+Oggi abbiamo parlato del passaggio tra unix e linux quindi:
+-unix
+-linux kernel 
+-e le distribuzioni
+Ma abbiamo parlato anche della teoria di tutto è un file, la teoria
+dei programmi piccoli che si combinano, le differenze tra linux e windos e 
+le famiglie delle distribuzioni.
