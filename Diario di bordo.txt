@@ -70,3 +70,10 @@ Oggi abbiamo parlato del passaggio tra unix e linux quindi:
 Ma abbiamo parlato anche della teoria di tutto è un file, la teoria
 dei programmi piccoli che si combinano, le differenze tra linux e windos e 
 le famiglie delle distribuzioni.
+
+15/07/2026
+Oggi abbiamo fatto un ripasso generale della settimana aggiungendo altre 
+dispense fra cui:
+-kernel linux, distribuzioni e shell
+-filesystem, path e codici base sul filesystem
+
