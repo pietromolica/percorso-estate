@@ -86,3 +86,12 @@ Oggi abbiamo fatto un piccolo test sui codici bash:
 -sort ordina le righe di testo i un standard scelto
 -mkdir che crea una o più cartelle 
 -cat viene utillizato per creare o visualizzare un file
+
+17/07/2026
+Oggi abbiamo fatto il test della settimana e abbiamo anche parlato
+di uno script bash e su come farne uno per fare backup automatici
+abbiamo parlato principalmente:
+-dello shebang 
+-delle variabili
+-il comando copia
+-del permmesso di esecuzione
