@@ -77,3 +77,12 @@ dispense fra cui:
 -kernel linux, distribuzioni e shell
 -filesystem, path e codici base sul filesystem
 
+16/07/2026
+Oggi abbiamo fatto un piccolo test sui codici bash:
+-grep che serve a cercare frammenti di testo o codice
+-wc che restituisce il numero di parole righe e caratteri
+-ls che elenca i file e le cartelle presenti nella directory corrente
+-find che viene usato per cercare file nel filesystem in base a parametri specifici
+-sort ordina le righe di testo i un standard scelto
+-mkdir che crea una o più cartelle 
+-cat viene utillizato per creare o visualizzare un file
