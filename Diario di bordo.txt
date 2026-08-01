@@ -107,3 +107,14 @@ che sono:
 -Data link
 -Fisico
 e anche della differenza con la tcp/ip che più pratica.
+
+21/07/2026
+Oggi abbiamo parlato del passaggio dal nome di dominio alla pagina visualizzata
+nel browser e i processi sono:
+-Il client che inserisce sul browser il dominio del sito
+-Il DNS vede se lo trova in cache se no lo passa al root DNS
+-Il root DNS gestisce tutti ivari tipi di dominio capisce quindi qual'è e lo passa al TLD
+-Il TLD ha il compito di capire chi gestisce il sito e gli chiede l'ip
+-L'autoritativo risponde e al client ritorna la risposta del sito e la salva in cache
+Inoltre abbiamo fatto il DHCP che assegna automaticamente l'ip al dispositivo e abbiamo anche
+fatto il routing, il gateway e il nat.
