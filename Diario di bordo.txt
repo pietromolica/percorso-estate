@@ -95,3 +95,15 @@ abbiamo parlato principalmente:
 -delle variabili
 -il comando copia
 -del permmesso di esecuzione
+
+20/07/2026
+oggi abbiamo parlato della pila iso osi e dei suoi livelli
+che sono:
+-Applicazione 
+-Presentazione
+-Sessione
+-Trasprto
+-Rete 
+-Data link
+-Fisico
+e anche della differenza con la tcp/ip che più pratica.
