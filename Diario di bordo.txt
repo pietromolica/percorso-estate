@@ -118,3 +118,12 @@ nel browser e i processi sono:
 -L'autoritativo risponde e al client ritorna la risposta del sito e la salva in cache
 Inoltre abbiamo fatto il DHCP che assegna automaticamente l'ip al dispositivo e abbiamo anche
 fatto il routing, il gateway e il nat.
+
+22/07/2026
+Oggi abbiamo parlato dei strumenti di diagnosi di rete quindi tutti i comandi
+rilevanti alla rete che sono:
+-ping che da la raggiungibilità più la latenza
+-tracert che rivela il percorso
+-nslookp che rivela l'ip di un sito
+-ipconfig che rivela la nostra configurazione
+-netstat che rivela le connessioni aperte.
