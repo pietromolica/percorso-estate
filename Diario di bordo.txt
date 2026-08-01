@@ -127,3 +127,10 @@ rilevanti alla rete che sono:
 -nslookp che rivela l'ip di un sito
 -ipconfig che rivela la nostra configurazione
 -netstat che rivela le connessioni aperte.
+
+24/07/2026
+Oggi abbiamo fatto il test della settimana che comprendeva:
+-DNS
+-DHCP
+-NAT 
+-Comandi vari di diagnostica.
