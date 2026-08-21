@@ -134,3 +134,17 @@ Oggi abbiamo fatto il test della settimana che comprendeva:
 -DHCP
 -NAT 
 -Comandi vari di diagnostica.
+
+19/08/2026
+Era da un po di tempo che non aggiornavo il mio diario peccato che me lo 
+sono scordato ma comunque siamo andati avanti un pò dopo che sono tornato
+dalla mia vacanza abbiamo iniziato le prime cose basilari di phyton come:
+-i tipi di dati(int,str,float....)
+-tutti i tipi di sequenze(liste,tuple,dizionari,insiemi...)
+-le filosofie di coda e pila lifo e fifo 
+-le funzioni
+-le classi....
+Nonostante io ci abbia messo un bel pò di tempo a farle tutte in una volta
+sono riuscito a recuperarmele tutte tramite il sito ufficiale di phyton e ho 
+anche fatto un piccolo aggiornamento a hello.py aggiungendo una parte con le 
+classi e le funzioni.
